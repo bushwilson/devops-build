@@ -1,0 +1,7 @@
+services:
+  web:
+    image: bushwilson/dev:latest
+    container_name: react-app
+    ports:
+      - "80:80"
+    restart: always
